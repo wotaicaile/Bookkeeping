@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="114134d0-3b23-4d5f-a7fb-957360742c4d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1t3bxmRFSYqIl8fXSn0NBUGgR3k" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ui/login_ui" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\liujiana\PycharmProjects\ReadingStatistics\ui\login_ui" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\liujiana\PycharmProjects\ReadingStatistics\Main\Note\notes" />
+      <recent name="C:\Users\liujiana\PycharmProjects\ReadingStatistics\ui\resource" />
+      <recent name="C:\Users\liujiana\PycharmProjects\ReadingStatistics\ui" />
+      <recent name="C:\Users\liujiana\PycharmProjects\ReadingStatistics\registerAccount" />
+      <recent name="C:\Users\liujiana\PycharmProjects\ReadingStatistics\common" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.loginRun">
+    <configuration name="database" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ReadingStatistics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/database.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="loginRun" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ReadingStatistics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login/loginRun.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mainRun" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ReadingStatistics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main/mainRun.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ReadingStatistics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testDemo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testshuzhuangtu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ReadingStatistics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testshuzhuangtu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.loginRun" />
+        <item itemvalue="Python.mainRun" />
+        <item itemvalue="Python.testshuzhuangtu" />
+        <item itemvalue="Python.database" />
+        <item itemvalue="Python.testDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="114134d0-3b23-4d5f-a7fb-957360742c4d" name="Default Changelist" comment="" />
+      <created>1622000969028</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622000969028</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="510" y="233" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622473759446">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="510" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1622473759446" />
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622005551759">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1622005551759" />
+    <state x="531" y="262" key="#com.intellij.tools.ToolEditorDialog" timestamp="1623092638048">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="531" y="262" key="#com.intellij.tools.ToolEditorDialog/0.0.1536.864@0.0.1536.864" timestamp="1623092638048" />
+    <state x="93" y="93" width="1350" height="678" key="DiffContextDialog" timestamp="1622376023978">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="93" y="93" width="1350" height="678" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1622376023978" />
+    <state x="547" y="188" key="FileChooserDialogImpl" timestamp="1623092636553">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="547" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1623092636553" />
+    <state width="1514" height="220" key="GridCell.Tab.0.bottom" timestamp="1623742819362">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1514" height="220" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1623742819362" />
+    <state width="1514" height="220" key="GridCell.Tab.0.center" timestamp="1623742819362">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1514" height="220" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1623742819362" />
+    <state width="1514" height="220" key="GridCell.Tab.0.left" timestamp="1623742819362">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1514" height="220" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1623742819362" />
+    <state width="1514" height="220" key="GridCell.Tab.0.right" timestamp="1623742819362">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1514" height="220" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1623742819362" />
+    <state width="1514" height="277" key="GridCell.Tab.1.bottom" timestamp="1623300945573">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1514" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1623300945573" />
+    <state width="1514" height="277" key="GridCell.Tab.1.center" timestamp="1623300945573">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1514" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1623300945573" />
+    <state width="1514" height="277" key="GridCell.Tab.1.left" timestamp="1623300945572">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1514" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1623300945572" />
+    <state width="1514" height="277" key="GridCell.Tab.1.right" timestamp="1623300945573">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1514" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1623300945573" />
+    <state x="270" y="77" key="SettingsEditor" timestamp="1623092640684">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="270" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1623092640684" />
+    <state x="468" y="164" width="600" height="536" key="find.popup" timestamp="1623333650753">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="468" y="164" width="600" height="536" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1623333650753" />
+    <state x="430" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1622556131024">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="430" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1622556131024" />
+  </component>
+</project>
