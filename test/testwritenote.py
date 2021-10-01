@@ -1,0 +1,123 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'D:\Python\ptqt\PyqtCode\diary_book\diary.ui'
+#
+# Created by: PyQt5 UI code generator 5.11.3
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(377, 442)
+        self.centralWidget = QtWidgets.QWidget(MainWindow)
+        self.centralWidget.setObjectName("centralWidget")
+        self.groupBox = QtWidgets.QGroupBox(self.centralWidget)
+        self.groupBox.setGeometry(QtCore.QRect(10, 70, 341, 331))
+        self.groupBox.setObjectName("groupBox")
+        self.textEdit_write_diary = QtWidgets.QTextEdit(self.groupBox)
+        self.textEdit_write_diary.setGeometry(QtCore.QRect(10, 110, 321, 221))
+        self.textEdit_write_diary.setObjectName("textEdit_write_diary")
+        self.label = QtWidgets.QLabel(self.groupBox)
+        self.label.setGeometry(QtCore.QRect(20, 32, 54, 12))
+        self.label.setObjectName("label")
+        self.label_2 = QtWidgets.QLabel(self.groupBox)
+        self.label_2.setGeometry(QtCore.QRect(20, 65, 54, 12))
+        self.label_2.setObjectName("label_2")
+        self.lineEdit_date = QtWidgets.QLineEdit(self.groupBox)
+        self.lineEdit_date.setGeometry(QtCore.QRect(60, 30, 130, 20))
+        self.lineEdit_date.setObjectName("lineEdit_date")
+        self.lineEdit_weather = QtWidgets.QLineEdit(self.groupBox)
+        self.lineEdit_weather.setGeometry(QtCore.QRect(60, 60, 113, 20))
+        self.lineEdit_weather.setObjectName("lineEdit_weather")
+        self.label_3 = QtWidgets.QLabel(self.groupBox)
+        self.label_3.setGeometry(QtCore.QRect(20, 90, 54, 12))
+        self.label_3.setObjectName("label_3")
+        self.groupBox_2 = QtWidgets.QGroupBox(self.centralWidget)
+        self.groupBox_2.setGeometry(QtCore.QRect(20, 10, 201, 51))
+        self.groupBox_2.setObjectName("groupBox_2")
+        self.dateTimeEdit = QtWidgets.QDateTimeEdit(self.groupBox_2)
+        self.dateTimeEdit.setGeometry(QtCore.QRect(0, 20, 194, 22))
+        self.dateTimeEdit.setObjectName("dateTimeEdit")
+
+        self.groupBox_3 = QtWidgets.QGroupBox(self.centralWidget)
+        self.groupBox_3.setGeometry(QtCore.QRect(230, 10, 120, 51))
+        self.groupBox_3.setObjectName("groupBox_3")
+        self.comboBox = QtWidgets.QComboBox(self.groupBox_3)
+        self.comboBox.setGeometry(QtCore.QRect(30, 20, 69, 22))
+        self.comboBox.setObjectName("comboBox")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        MainWindow.setCentralWidget(self.centralWidget)
+        self.menuBar = QtWidgets.QMenuBar(MainWindow)
+        self.menuBar.setGeometry(QtCore.QRect(0, 0, 377, 23))
+        self.menuBar.setObjectName("menuBar")
+        self.menu = QtWidgets.QMenu(self.menuBar)
+        self.menu.setObjectName("menu")
+        self.menu_2 = QtWidgets.QMenu(self.menuBar)
+        self.menu_2.setObjectName("menu_2")
+        self.menu_3 = QtWidgets.QMenu(self.menuBar)
+        self.menu_3.setTitle("")
+        self.menu_3.setObjectName("menu_3")
+        MainWindow.setMenuBar(self.menuBar)
+        self.action_open = QtWidgets.QAction(MainWindow)
+        self.action_open.setObjectName("action_open")
+        self.action_close = QtWidgets.QAction(MainWindow)
+        self.action_close.setObjectName("action_close")
+        self.action_alter = QtWidgets.QAction(MainWindow)
+        self.action_alter.setObjectName("action_alter")
+        self.action_save = QtWidgets.QAction(MainWindow)
+        self.action_save.setObjectName("action_save")
+        self.action_about = QtWidgets.QAction(MainWindow)
+        self.action_about.setObjectName("action_about")
+        self.menu.addAction(self.action_open)
+        self.menu.addSeparator()
+        self.menu.addAction(self.action_alter)
+        self.menu.addAction(self.action_save)
+        self.menu.addAction(self.action_close)
+        self.menu_2.addAction(self.action_about)
+        self.menuBar.addAction(self.menu.menuAction())
+        self.menuBar.addAction(self.menu_2.menuAction())
+        self.menuBar.addAction(self.menu_3.menuAction())
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.groupBox.setTitle(_translate("MainWindow", "写日记"))
+        self.label.setText(_translate("MainWindow", "日期："))
+        self.label_2.setText(_translate("MainWindow", "天气："))
+        self.label_3.setText(_translate("MainWindow", "内容"))
+        self.groupBox_2.setTitle(_translate("MainWindow", "日期"))
+        self.groupBox_3.setTitle(_translate("MainWindow", "天气"))
+        self.comboBox.setItemText(0, _translate("MainWindow", "晴朗"))
+        self.comboBox.setItemText(1, _translate("MainWindow", "下雨"))
+        self.comboBox.setItemText(2, _translate("MainWindow", "阴天"))
+        self.comboBox.setItemText(3, _translate("MainWindow", "下雪"))
+        self.comboBox.setItemText(4, _translate("MainWindow", "雾霾"))
+        self.menu.setTitle(_translate("MainWindow", "文件"))
+        self.menu_2.setTitle(_translate("MainWindow", "关于我们"))
+        self.action_open.setText(_translate("MainWindow", "打开日记本"))
+        self.action_close.setText(_translate("MainWindow", "关闭"))
+        self.action_alter.setText(_translate("MainWindow", "修改日记"))
+        self.action_save.setText(_translate("MainWindow", "保存日记"))
+        self.action_about.setText(_translate("MainWindow", "关于"))
+
+
+if __name__ == "__main__":
+    import sys
+
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec_())

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>680</width>
+    <height>531</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>11</y>
+     <width>656</width>
+     <height>508</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/login/login_back.png);
+background:transparent</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="register_button_confirm">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>350</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/login/login_register.png);
+background:transparent</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="hintmassage">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>40</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 240, 230);
+font: 9pt &quot;幼圆&quot;;
+font: 18pt ;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>110</y>
+     <width>331</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+border-style: solid;
+border-radius:15px; 
+background:rgba(0,0,0,0.1)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>100</y>
+     <width>331</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QLineEdit" name="user_register">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>75</height>
+       </size>
+      </property>
+      <property name="tabletTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-width: 3px 3px 3px 3px;
+border-image: url(:/login/login_user.png);
+border-style: solid;
+border-radius:10px; 
+border-color: rgb(255, 255, 255);
+font: 20pt &quot;Bauhaus 93&quot;;
+background:transparent
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="placeholderText">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="password_register">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>75</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-width: 3px 3px 3px 3px;
+border-image: url(:/login/login_passwprd.png);
+border-style: solid;
+border-radius:10px; 
+border-color: rgb(255, 255, 255);
+font: 16pt &quot;Agency FB&quot;;
+background:transparent
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="placeholderText">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="password_register2">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>75</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-width: 3px 3px 3px 3px;
+border-image: url(:/login/login_passwprd.png);
+border-style: solid;
+border-radius:10px; 
+border-color: rgb(255, 255, 255);
+font: 16pt &quot;Agency FB&quot;;
+background:transparent
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="login_back_pushbutton">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>110</y>
+     <width>61</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/login/register_back.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>register_button_confirm</zorder>
+  <zorder>groupBox</zorder>
+  <zorder>verticalLayoutWidget</zorder>
+  <zorder>hintmassage</zorder>
+  <zorder>login_back_pushbutton</zorder>
+ </widget>
+ <resources>
+  <include location="../resource/rsc.qrc"/>
+ </resources>
+ <connections/>
+</ui>
